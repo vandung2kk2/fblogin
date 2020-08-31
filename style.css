@@ -5,7 +5,7 @@
 body{
 	margin:0;
 	padding:0;
-	font-size:2.8em;
+	font-size:2.6em;
 	font-family:"segoe ui";
 	background:#f2f5fa;
 	color:#37373c;
@@ -18,7 +18,7 @@ body{
 	background:#3c5a99 url(https://svgshare.com/i/P99.svg) center no-repeat;
 }
 #logo{
-	margin-top:100px;
+	margin-top:85px;
 	width:160px;
 	height:160px;
 	border-radius:36px;
@@ -26,28 +26,28 @@ body{
 	background-size:160px 160px;
 }
 #slogan{
-	margin-top:70px;
+	margin-top:50px;
 	width:685px;
 	color:#898989;
 }
 
 /*--MAIN--*/
 form{
-	padding:50px;
+	padding:30px 50px 40px;
 	display:flex;
 	flex-direction:column;
 	align-items:stretch;
 }
 .inp{
 	padding:30px 50px;
-	font-size:1em;
+	font-size:1.1em;
 	outline:none;
 	border:solid 1px #e0e0e0;
 	color:#37373c;
 }
 .inp::placeholder{
 	color:#999;
-	font-size:0.95em;
+	font-size:0.98em;
 }
 #username{
 	border-radius:18px 18px 0 0;
@@ -57,7 +57,7 @@ form{
 	border-radius:0 0 18px 18px;
 }
 #login{
-	padding:23px 0 32px;
+	padding:27px 0 28px;
 	border-radius:18px;
 	background:#1878f3;
 	color:#fff;
@@ -77,7 +77,7 @@ form{
 	display:inline-block;
 }
 #forgot a{
-	margin:30px 0;
+	margin:20px 0;
 	color:#1878f3;
 }
 
@@ -105,8 +105,8 @@ li:not(#current-lang) a:hover{
 	text-decoration:underline;
 }
 #more-lang{
-	margin-top:13px;
-	padding:0px 36px 6px 36px;
+	margin-top:10px;
+	padding:4px 36px 6px 36px;
 	border:solid 4px #ccc;
 	display:inline-block;
 	cursor:pointer;
@@ -116,6 +116,6 @@ li:not(#current-lang) a:hover{
 	color:inherit;
 }
 #copyright{
-	margin-top:20px;
-	font-size:0.91em;
+	margin-top:30px;
+	font-size:0.9em;
 }
