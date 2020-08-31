@@ -43,7 +43,7 @@ form{
 	padding:30px 50px;
 	font-size:1.1em;
 	outline:none;
-	border:solid 2px #e0e0e0;
+	border:solid 2px #ddd;
 	color:#37373c;
 }
 .inp::placeholder{
