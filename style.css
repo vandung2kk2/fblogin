@@ -27,13 +27,14 @@ body{
 }
 #slogan{
 	margin-top:50px;
-	width:685px;
-	color:#898989;
+	width:680px;
+	font-size:0.96em;
+	color:#999;
 }
 
 /*--MAIN--*/
 form{
-	padding:40px 50px;
+	padding:70px 50px 40px;
 	display:flex;
 	flex-direction:column;
 	align-items:stretch;
@@ -95,7 +96,7 @@ li a{
 	text-decoration:none;
 	padding:0 10px;
 	display:inline-block;
-	margin:8px 0;
+	margin:10px 0;
 	font-size:0.9em;
 }
 #current-lang a{
@@ -105,7 +106,6 @@ li:not(#current-lang) a:hover{
 	text-decoration:underline;
 }
 #more-lang{
-	margin-top:10px;
 	padding:6px 32px 8px 32px;
 	border:solid 4px #999;
 	display:inline-block;
@@ -116,6 +116,6 @@ li:not(#current-lang) a:hover{
 	color:#444;
 }
 #copyright{
-	margin-top:25px;
+	margin-top:15px;
 	font-size:0.9em;
 }
