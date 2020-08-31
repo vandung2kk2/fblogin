@@ -28,13 +28,13 @@ body{
 #slogan{
 	margin-top:50px;
 	width:680px;
-	font-size:0.96em;
+	font-size:1.05em;
 	color:#999;
 }
 
 /*--MAIN--*/
 form{
-	padding:70px 50px 40px;
+	padding:80px 50px 40px;
 	display:flex;
 	flex-direction:column;
 	align-items:stretch;
@@ -48,7 +48,7 @@ form{
 }
 .inp::placeholder{
 	color:#999;
-	font-size:0.98em;
+	font-size:0.96em;
 }
 #username{
 	border-radius:18px 18px 0 0;
@@ -78,7 +78,7 @@ form{
 	display:inline-block;
 }
 #forgot a{
-	margin:20px 0;
+	margin:20px 0 30px;
 	color:#1878f3;
 }
 
@@ -89,7 +89,7 @@ form{
 }
 ul{
 	list-style:none;
-	flex-grow:1;
+	flex-basis:50%;
 }
 li a{
 	color:#3c65bc;
@@ -106,8 +106,8 @@ li:not(#current-lang) a:hover{
 	text-decoration:underline;
 }
 #more-lang{
-	padding:6px 32px 8px 32px;
-	border:solid 4px #999;
+	padding:3px 28px 5px 28px;
+	border:solid 2px #999;
 	display:inline-block;
 	cursor:pointer;
 	border-radius:18px;
