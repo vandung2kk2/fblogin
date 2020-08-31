@@ -18,7 +18,7 @@ body{
 	background:#3c5a99 url(https://svgshare.com/i/P99.svg) center no-repeat;
 }
 #logo{
-	margin-top:85px;
+	margin-top:90px;
 	width:160px;
 	height:160px;
 	border-radius:36px;
@@ -33,7 +33,7 @@ body{
 
 /*--MAIN--*/
 form{
-	padding:30px 50px 40px;
+	padding:40px 50px;
 	display:flex;
 	flex-direction:column;
 	align-items:stretch;
@@ -89,14 +89,14 @@ form{
 ul{
 	list-style:none;
 	flex-grow:1;
-	font-size:0.92em;
 }
 li a{
 	color:#3c65bc;
 	text-decoration:none;
 	padding:0 10px;
 	display:inline-block;
-	margin:10px 0;
+	margin:8px 0;
+	font-size:0.9em;
 }
 #current-lang a{
 	color:inherit;
@@ -106,16 +106,16 @@ li:not(#current-lang) a:hover{
 }
 #more-lang{
 	margin-top:10px;
-	padding:4px 36px 6px 36px;
-	border:solid 4px #ccc;
+	padding:6px 32px 8px 32px;
+	border:solid 4px #999;
 	display:inline-block;
 	cursor:pointer;
 	border-radius:18px;
-	background:#f3f3f3;
+	background:#fbfbfb;
 	font-weight:800;
-	color:inherit;
+	color:#444;
 }
 #copyright{
-	margin-top:30px;
+	margin-top:25px;
 	font-size:0.9em;
 }
