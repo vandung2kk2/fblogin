@@ -1,0 +1,119 @@
+/*--GENERAL--*/
+/*
+	blue: #3c5a99
+*/
+body{
+	margin:0;
+	padding:0;
+	font-size:3em;
+	font-family:"segoe ui";
+	background:#f2f5fa;
+	color:#37373c;
+}
+
+
+/*--HEADER--*/
+#nav-bar{
+	height:150px;
+	background:#3c5a99 url(https://svgshare.com/i/P99.svg) center no-repeat;
+}
+#logo{
+	margin-top:100px;
+	width:170px;
+	height:170px;
+	border-radius:40px;
+	background:url("https://svgshare.com/i/PC5.svg");
+	background-size:170px 170px;
+}
+#slogan{
+	margin-top:70px;
+	width:685px;
+	color:#898989;
+}
+
+/*--MAIN--*/
+form{
+	padding:50px;
+	display:flex;
+	flex-direction:column;
+	align-items:stretch;
+}
+.inp{
+	padding:35px 50px;
+	font-size:1em;
+	outline:none;
+	border:solid 1px #e0e0e0;
+	color:#37373c;
+}
+.inp::placeholder{
+	color:#999;
+	font-size:0.95em;
+}
+#username{
+	border-radius:18px 18px 0 0;
+}
+#password{
+	border-top:0;
+	border-radius:0 0 18px 18px;
+}
+#login{
+	padding:30px 0 35px;
+	border-radius:18px;
+	background:#1878f3;
+	color:#fff;
+	font-weight:500;
+	cursor:pointer;
+	font-size:1.1em;
+	margin-top:35px;
+	transition:0.1s;
+}
+#login.active{
+	background:#1878f399;
+}
+#skip a, #forgot a{
+	color:inherit;
+	text-decoration:none;
+	padding:0 20px;
+	display:inline-block;
+}
+#forgot a{
+	margin:30px 0;
+	color:#1878f3;
+}
+
+/*--FOOTER--*/
+#languages{
+	display:flex;
+	justify-content:center;
+}
+ul{
+	list-style:none;
+	flex-grow:1;
+	font-size:0.92em;
+}
+li a{
+	color:#3c65bc;
+	text-decoration:none;
+	padding:0 10px;
+	display:inline-block;
+	margin:10px 0;
+}
+#current-lang a{
+	color:inherit;
+}
+li:not(#current-lang) a:hover{
+	text-decoration:underline;
+}
+#more-lang{
+	padding:0px 36px 6px 36px;
+	border:solid 4px #ccc;
+	display:inline-block;
+	cursor:pointer;
+	border-radius:18px;
+	background:#f3f3f3;
+	font-weight:800;
+	color:inherit;
+}
+#copyright{
+	font-size:0.91em;
+}
