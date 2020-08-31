@@ -5,7 +5,7 @@
 body{
 	margin:0;
 	padding:0;
-	font-size:3em;
+	font-size:2.8em;
 	font-family:"segoe ui";
 	background:#f2f5fa;
 	color:#37373c;
@@ -14,16 +14,16 @@ body{
 
 /*--HEADER--*/
 #nav-bar{
-	height:150px;
+	height:140px;
 	background:#3c5a99 url(https://svgshare.com/i/P99.svg) center no-repeat;
 }
 #logo{
 	margin-top:100px;
-	width:170px;
-	height:170px;
-	border-radius:40px;
+	width:160px;
+	height:160px;
+	border-radius:36px;
 	background:url("https://svgshare.com/i/PC5.svg");
-	background-size:170px 170px;
+	background-size:160px 160px;
 }
 #slogan{
 	margin-top:70px;
@@ -39,7 +39,7 @@ form{
 	align-items:stretch;
 }
 .inp{
-	padding:35px 50px;
+	padding:30px 50px;
 	font-size:1em;
 	outline:none;
 	border:solid 1px #e0e0e0;
@@ -57,7 +57,7 @@ form{
 	border-radius:0 0 18px 18px;
 }
 #login{
-	padding:30px 0 35px;
+	padding:23px 0 32px;
 	border-radius:18px;
 	background:#1878f3;
 	color:#fff;
@@ -105,6 +105,7 @@ li:not(#current-lang) a:hover{
 	text-decoration:underline;
 }
 #more-lang{
+	margin-top:13px;
 	padding:0px 36px 6px 36px;
 	border:solid 4px #ccc;
 	display:inline-block;
@@ -115,5 +116,6 @@ li:not(#current-lang) a:hover{
 	color:inherit;
 }
 #copyright{
+	margin-top:20px;
 	font-size:0.91em;
 }
